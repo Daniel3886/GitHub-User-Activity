@@ -7,12 +7,14 @@ import org.springframework.web.service.annotation.HttpExchange;
 
 import java.util.List;
 
-@HttpExchange("repos/{owner}/{repo}/commits")
+@HttpExchange("repos/{owner}/{repo}/commits?page={page}&per_page={perPage}")
 public interface UserActivityClient {
     @GetExchange
     List<UserActivityResponse> getGithubUserActivity(
             @PathVariable("owner") String ownerName,
-            @PathVariable("repo") String repoName
+            @PathVariable("repo") String repoName,
+            @PathVariable("page") int page,
+            @PathVariable("perPage") int perPage
     );
 
 }

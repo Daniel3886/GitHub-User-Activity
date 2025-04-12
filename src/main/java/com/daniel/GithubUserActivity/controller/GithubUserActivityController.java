@@ -21,8 +21,12 @@ public class GithubUserActivityController {
 
     @GetMapping("/activity")
     public List<UserActivityResponse> getCommits(
-            @RequestParam String ownerName, @RequestParam String repoName) {
-        return userActivityClient.getGithubUserActivity(ownerName, repoName);
+            @RequestParam String ownerName,
+            @RequestParam String repoName,
+            @RequestParam(defaultValue = "1") int page,
+            @RequestParam(defaultValue = "1") int perPage
+    ){
+        return userActivityClient.getGithubUserActivity(ownerName, repoName, page, perPage);
     }
 
 }
