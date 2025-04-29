@@ -63,3 +63,641 @@
 1744490468984:github-activity Daniel3886 index.html --page 3 --perPage 10
 1744490910353:github-activity Daniel3886 index.html
 1744491009324:github-activity Daniel3886 index.html --page 2 --perPage 10
+1744558814850:github-activity Daniel3886
+1744558829403:help
+1744558835508:github-activity
+1744559004115:help
+1744559009110:github-activity
+1744559013485:github-activity Daniel3886
+1744559020726:stacktrace
+1744559071051:github-activity
+1744559074817:github-activity Daniel3886
+1744559219196:github-activity Daniel3886 Java
+1744560059156:github-activity
+1744560065345:github-activity Daniel3886
+1744560781755:help
+1744560790541:github-activity Daniel3886
+1744560799499:stacktrace
+1744560880116:github-activity Daniel3886
+1744560887686:stacktrace
+1744561614111://            Activity commit,
+1744561628601:github-activity Daniel3886
+1744561905193:stacktrace
+1744562637641:github-activity Daniel3886
+1744568507180:github--activity Daniel3886
+1744568514441:github-activity Daniel3886
+1744641446918:help
+1744641454913:github-activity
+1744641462438:github-activity Daniel3886
+1744641815528:stacktrace
+1744641820622:help
+1744793136541:github-activity Daniel3886
+1744803265514:github-activity sofjey
+1744803280314:github-activity softjey
+1744805346503:github-activity Daniel3886
+1744805404370:switch (type) {
+1744805421502:github-activity sofjey
+1744805429162:github-activity softjey
+1744810837972:stacktrace
+1744810886004:github-action softjey
+1744810898700:github-action Daniel3886
+1744810904070:help
+1744810915163:github-activity softjey
+1744810925460:github-activity Daniel3886
+1744810930391:stacktrace
+1745153393677:github-activity Daniel3886
+1745153402008:stacktrace
+1745153478689:github-activity Daniel3886
+1745158938634:stacktrace
+1745159100358:github-activity Daniel3886github-activity Daniel3886
+1745159102111:github-activity Daniel3886
+1745159108825:stacktrace
+1745159190698:github-activity Daniel3886
+1745159205346:github-activity softjey
+1745159223093:github-activity Softjey
+1745159225160:github-activity Daniel3886
+1745159233503:github-activity Junk-debug
+1745159247925:github-activity softjey
+1745159266515:stacktrace
+1745159800862:org.springframework.core.codec.DecodingException: JSON decoding error: Cannot construct instance of `com.daniel.GithubUserActivity.model.UserActivityResponse$Action` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('created')
+1745159800876:t org.springframework.http.codec.json.AbstractJackson2Decoder.processException(AbstractJackson2Decoder.java:273)
+1745159800879:uppressed: The stacktrace has been enhanced by Reactor, refer to additional information below:
+1745159805833:Error has been observed at the following site(s):github-activity Daniel3886github-activity Daniel3886
+1745159807096:github-activity Daniel3886
+1745160136265:github-activity Sotjey
+1745160146065:github-activity softjey
+1745160155207:stacktrace
+1745160212693:github-activity Daniel3886
+1745160222291:github-activity softjey
+1745160229231:stacktrace
+1745160275758:github-activity softjey
+1745160276664:JSON decoding error: Cannot construct instance of `com.daniel.GithubUserActivity.model.UserActivityResponse$Action` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('created')
+1745160276669:Details of the error have been omitted. You can use the stacktrace command to print the full stacktrace.
+1745160276672:shell:>stacktrace
+1745160276685:org.springframework.core.codec.DecodingException: JSON decoding error: Cannot construct instance of `com.daniel.GithubUserActivity.model.UserActivityResponse$Action` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('created')
+1745160276693:t org.springframework.http.codec.json.AbstractJackson2Decoder.processException(AbstractJackson2Decoder.java:273)
+1745160276696:uppressed: The stacktrace has been enhanced by Reactor, refer to additional information below:
+1745160276699:Error has been observed at the following site(s):
+1745160276704:__checkpoint ⇢ Body from GET https://api.github.com/users/softjey/events [DefaultClientResponse]
+1745160276706:Original Stack Trace:
+1745160276715:at org.springframework.http.codec.json.AbstractJackson2Decoder.processException(AbstractJackson2Decoder.java:273)
+1745160276720:at org.springframework.http.codec.json.AbstractJackson2Decoder.decode(AbstractJackson2Decoder.java:209)
+1745160276725:at org.springframework.http.codec.json.AbstractJackson2Decoder.lambda$decodeToMono$2(AbstractJackson2Decoder.java:189)
+1745160276729:at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:132)
+1745160276733:at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+1745160276738:at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:299)
+1745160276742:at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337)
+1745160276746:at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2071)
+1745160276750:at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:145)
+1745160276754:at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144)
+1745160276758:at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260)
+1745160276761:at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144)
+1745160276764:at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:415)
+1745160276768:at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:431)
+1745160276772:at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:485)
+1745160276776:at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:712)
+1745160276779:at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:113)
+1745160276783:at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+1745160276787:at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+1745160276793:at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+1745160276797:at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+1745160276801:at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+1745160276805:at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+1745160276810:at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+1745160276815:at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+1745160276818:at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+1745160276822:at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+1745160276826:at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+1745160276830:at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+1745160276834:at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+1745160276838:at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+1745160276841:at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1382)
+1745160276844:at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1245)
+1745160276846:at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1294)
+1745160276852:at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+1745160276856:at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
+1745160276860:at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+1745160276864:at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+1745160276868:at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+1745160276873:at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+1745160276878:at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+1745160276883:at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+1745160276889:at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+1745160276894:at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+1745160276898:at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+1745160276901:at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+1745160276905:at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+1745160276910:at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+1745160276914:at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+1745160276919:at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+1745160276922:at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+1745160276926:at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+1745160276929:at java.base/java.lang.Thread.run(Thread.java:1583)
+1745160276933:uppressed: java.lang.Exception: #block terminated with an error
+1745160276937:at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:139)
+1745160276940:at reactor.core.publisher.Mono.block(Mono.java:1734)
+1745160276944:at org.springframework.web.service.invoker.HttpServiceMethod$ResponseFunction.execute(HttpServiceMethod.java:301)
+1745160276948:at org.springframework.web.service.invoker.HttpServiceMethod.invoke(HttpServiceMethod.java:110)
+1745160276953:at org.springframework.web.service.invoker.HttpServiceProxyFactory$HttpServiceMethodInterceptor.invoke(HttpServiceProxyFactory.java:278)
+1745160276957:at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+1745160276961:at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:218)
+1745160276964:at jdk.proxy2/jdk.proxy2.$Proxy52.getUserEvents(Unknown Source)
+1745160276969:at com.daniel.GithubUserActivity.commands.UserActivityCommands.getUserActivity(UserActivityCommands.java:47)
+1745160276974:at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+1745160276977:at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+1745160276980:at org.springframework.shell.command.invocation.InvocableShellMethod.doInvoke(InvocableShellMethod.java:306)
+1745160276984:at org.springframework.shell.command.invocation.InvocableShellMethod.invoke(InvocableShellMethod.java:232)
+1745160276988:at org.springframework.shell.command.CommandExecution$DefaultCommandExecution.evaluate(CommandExecution.java:220)
+1745160276991:at org.springframework.shell.Shell.evaluate(Shell.java:246)
+1745160276993:at org.springframework.shell.Shell.run(Shell.java:158)
+1745160276996:at org.springframework.shell.jline.InteractiveShellRunner.run(InteractiveShellRunner.java:73)
+1745160276999:at org.springframework.shell.DefaultShellApplicationRunner.run(DefaultShellApplicationRunner.java:65)
+1745160277003:at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:760)
+1745160277006:at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:750)
+1745160277009:at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+1745160277012:at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+1745160277015:at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+1745160277020:at com.daniel.GithubUserActivity.GithubUserActivityApplication.main(GithubUserActivityApplication.java:19)
+1745160277027:Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.daniel.GithubUserActivity.model.UserActivityResponse$Action` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('created')
+1745160277038:t com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:63)
+1745160277041:t com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1733)
+1745160277044:t com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1358)
+1745160277048:t com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromString(StdDeserializer.java:311)
+1745160277051:t com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromString(BeanDeserializerBase.java:1500)
+1745160277054:t com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:197)
+1745160277058:t com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187)
+1745160277061:t com.fasterxml.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:542)
+1745160277065:t com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeWithErrorWrapping(BeanDeserializer.java:564)
+1745160277069:t com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:439)
+1745160277073:t com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1405)
+1745160277078:t com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+1745160277082:t com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+1745160277087:t com.fasterxml.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:542)
+1745160277091:t com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeWithErrorWrapping(BeanDeserializer.java:564)
+1745160277095:t com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:439)
+1745160277101:t com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1405)
+1745160277105:t com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+1745160277109:t com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+1745160277114:t com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:359)
+1745160277121:t com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244)
+1745160277123:t com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28)
+1745160277127:t com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+1745160277130:t com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2105)
+1745160277133:t com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1481)
+1745160277137:t org.springframework.http.codec.json.AbstractJackson2Decoder.decode(AbstractJackson2Decoder.java:204)
+1745160277142:t org.springframework.http.codec.json.AbstractJackson2Decoder.lambda$decodeToMono$2(AbstractJackson2Decoder.java:189)
+1745160277145:t reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:132)
+1745160277149:t reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+1745160277154:t reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:299)
+1745160277158:t reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337)
+1745160277161:t reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2071)
+1745160277164:t reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:145)
+1745160277168:t reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144)
+1745160277170:t reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260)
+1745160277174:t reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144)
+1745160277177:t reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:415)
+1745160277180:t reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:431)
+1745160277182:t reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:485)
+1745160277185:t reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:712)
+1745160277189:t reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:113)
+1745160277193:t io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+1745160277197:t io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+1745160277208:t io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+1745160277211:t io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+1745160277213:t io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+1745160277216:t io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+1745160277219:t io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+1745160277223:t io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+1745160277226:t io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+1745160277228:t io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+1745160277231:t io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+1745160277235:t io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+1745160277237:t io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+1745160277240:t io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+1745160277242:t io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1382)
+1745160277244:t io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1245)
+1745160277246:t io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1294)
+1745160277249:t io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+1745160277251:t io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
+1745160277254:t io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+1745160277256:t io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+1745160277260:t io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+1745160277263:t io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+1745160277266:t io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+1745160277269:t io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+1745160277273:t io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+1745160277276:t io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+1745160277279:t io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+1745160277282:t io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+1745160277286:t io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+1745160277288:t io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+1745160277291:t io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+1745160277294:t io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+1745160277297:t io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+1745160277300:t io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+1745160278892:t java.base/java.lang.Thread.run(Thread.java:1583)
+1745160281141:github-activity Daniel3886
+1745160286033:github-activity sotjey
+1745160296528:github-activity Softjey
+1745160301984:github-activity softjey
+1745160327820:github-activity Softjey
+1745160333427:stacktrace
+1745160658866:github-activity
+1745160675552:github-activity Softjey
+1745160758794:github-activity Daniel3886
+1745160771322:github-activity Softjey
+1745160959448:github-activity Daniel3886
+1745160963576:github-activity Softjey
+1745160965830:stacktrace
+1745161529536:switch (type){
+1745161535298:github-activity Softjey
+1745161547313:github-activity Daniel3886
+1745161833827:action = event.type().replace("Event", "")
+1745161839673:github-activity Softjey
+1745161848925:github-activity Daniel3886
+1745161920166:github-activity Softjey
+1745161924620:stacktrace
+1745162450729:import static java.lang.StringUTF16.toLowerCase;
+1745162455511:github-activity Softjey
+1745162462414:stacktrace
+1745162610324:github-activity Softjey
+1745162615175:stacktrace
+1745162890400:org.springframework.core.codec.DecodingException: JSON decoding error: Cannot construct instance of `com.daniel.GithubUserActivity.model.UserActivityResponse$Action` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('created')
+1745162890425:t org.springframework.http.codec.json.AbstractJackson2Decoder.processException(AbstractJackson2Decoder.java:273)
+1745162890429:uppressed: The stacktrace has been enhanced by Reactor, refer to additional information below:
+1745162890432:Error has been observed at the following site(s):
+1745162890438:__checkpoint ⇢ Body from GET https://api.github.com/users/Softjey/events [DefaultClientResponse]
+1745162890440:Original Stack Trace:
+1745162890447:at org.springframework.http.codec.json.AbstractJackson2Decoder.processException(AbstractJackson2Decoder.java:273)
+1745162890452:at org.springframework.http.codec.json.AbstractJackson2Decoder.decode(AbstractJackson2Decoder.java:209)
+1745162890458:at org.springframework.http.codec.json.AbstractJackson2Decoder.lambda$decodeToMono$2(AbstractJackson2Decoder.java:189)
+1745162890462:at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:132)
+1745162890466:at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+1745162890470:at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:299)
+1745162890474:at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337)
+1745162890479:at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2071)
+1745162890483:at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:145)
+1745162890486:at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144)
+1745162890489:at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260)
+1745162890493:at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144)
+1745162890498:at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:415)
+1745162890501:at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:431)
+1745162890507:at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:485)
+1745162890511:at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:712)
+1745162890515:at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:113)
+1745162890519:at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+1745162890524:at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+1745162890529:at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+1745162890534:at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+1745162890539:at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+1745162890543:at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+1745162890547:at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+1745162890552:at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+1745162890556:at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+1745162890560:at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+1745162890563:at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+1745162890567:at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+1745162890571:at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+1745162890574:at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+1745162890577:at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1382)
+1745162890580:at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1245)
+1745162890583:at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1294)
+1745162890587:at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+1745162890591:at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
+1745162890594:at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+1745162890599:at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+1745162890604:at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+1745162890610:at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+1745162890615:at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+1745162890621:at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+1745162890625:at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+1745162890633:at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+1745162890638:at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+1745162890642:at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+1745162890646:at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+1745162890650:at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+1745162890655:at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+1745162890659:at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+1745162890663:at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+1745162890668:at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+1745162890672:at java.base/java.lang.Thread.run(Thread.java:1583)
+1745162890676:uppressed: java.lang.Exception: #block terminated with an error
+1745162890680:at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:139)
+1745162890683:at reactor.core.publisher.Mono.block(Mono.java:1734)
+1745162890688:at org.springframework.web.service.invoker.HttpServiceMethod$ResponseFunction.execute(HttpServiceMethod.java:301)
+1745162890692:at org.springframework.web.service.invoker.HttpServiceMethod.invoke(HttpServiceMethod.java:110)
+1745162890698:at org.springframework.web.service.invoker.HttpServiceProxyFactory$HttpServiceMethodInterceptor.invoke(HttpServiceProxyFactory.java:278)
+1745162890702:at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+1745162890706:at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:218)
+1745162890709:at jdk.proxy2/jdk.proxy2.$Proxy52.getUserEvents(Unknown Source)
+1745162890713:at com.daniel.GithubUserActivity.commands.UserActivityCommands.getUserActivity(UserActivityCommands.java:47)
+1745162890718:at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+1745162890721:at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+1745162890725:at org.springframework.shell.command.invocation.InvocableShellMethod.doInvoke(InvocableShellMethod.java:306)
+1745162890729:at org.springframework.shell.command.invocation.InvocableShellMethod.invoke(InvocableShellMethod.java:232)
+1745162890732:at org.springframework.shell.command.CommandExecution$DefaultCommandExecution.evaluate(CommandExecution.java:220)
+1745162890735:at org.springframework.shell.Shell.evaluate(Shell.java:246)
+1745162890738:at org.springframework.shell.Shell.run(Shell.java:158)
+1745162890741:at org.springframework.shell.jline.InteractiveShellRunner.run(InteractiveShellRunner.java:73)
+1745162890744:at org.springframework.shell.DefaultShellApplicationRunner.run(DefaultShellApplicationRunner.java:65)
+1745162890747:at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:760)
+1745162890750:at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:750)
+1745162890753:at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+1745162890756:at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+1745162890761:at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+1745162890764:at com.daniel.GithubUserActivity.GithubUserActivityApplication.main(GithubUserActivityApplication.java:19)
+1745162890772:Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.daniel.GithubUserActivity.model.UserActivityResponse$Action` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('created')
+1745162890783:t com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:63)
+1745162890787:t com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1733)
+1745162890791:t com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1358)
+1745162890795:t com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromString(StdDeserializer.java:311)
+1745162890799:t com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromString(BeanDeserializerBase.java:1500)
+1745162890803:t com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:197)
+1745162890808:t com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187)
+1745162890812:t com.fasterxml.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:542)
+1745162890817:t com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeWithErrorWrapping(BeanDeserializer.java:564)
+1745162890821:t com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:439)
+1745162890826:t com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1405)
+1745162890830:t com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+1745162890834:t com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+1745162890838:t com.fasterxml.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:542)
+1745162890843:t com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeWithErrorWrapping(BeanDeserializer.java:564)
+1745162890847:t com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:439)
+1745162890852:t com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1405)
+1745162890856:t com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+1745162890860:t com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+1745162890865:t com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:359)
+1745162890870:t com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244)
+1745162890875:t com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28)
+1745162890879:t com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+1745162890883:t com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2105)
+1745162890887:t com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1481)
+1745162890891:t org.springframework.http.codec.json.AbstractJackson2Decoder.decode(AbstractJackson2Decoder.java:204)
+1745162890896:t org.springframework.http.codec.json.AbstractJackson2Decoder.lambda$decodeToMono$2(AbstractJackson2Decoder.java:189)
+1745162890899:t reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:132)
+1745162890903:t reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+1745162890907:t reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:299)
+1745162890910:t reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337)
+1745162890913:t reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2071)
+1745162890916:t reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:145)
+1745162890919:t reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144)
+1745162890922:t reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260)
+1745162890924:t reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144)
+1745162890927:t reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:415)
+1745162890929:t reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:431)
+1745162890931:t reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:485)
+1745162890935:t reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:712)
+1745162890938:t reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:113)
+1745162890941:t io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+1745162890944:t io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+1745162890948:t io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+1745162890950:t io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+1745162890953:t io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+1745162890956:t io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+1745162890958:t io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+1745162890962:t io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+1745162890964:t io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+1745162890966:t io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+1745162890968:t io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+1745162890971:t io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+1745162890974:t io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+1745162890976:t io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+1745162890978:t io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1382)
+1745162890980:t io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1245)
+1745162890982:t io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1294)
+1745162890985:t io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+1745162890988:t io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
+1745162890990:t io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+1745162890993:t io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+1745162890997:t io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+1745162891000:t io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+1745162891004:t io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+1745162891008:t io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+1745162891011:t io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+1745162891015:t io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+1745162891019:t io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+1745162891022:t io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+1745162891025:t io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+1745162891028:t io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+1745162891030:t io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+1745162891034:t io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+1745162891038:t io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+1745162891043:t io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+1745162891045:t java.base/java.lang.Thread.run(Thread.java:1583)
+1745162898918:shell:>github-activity Softjey
+1745162906857:github-activity Softjey
+1745335889331:github-activity Daniel3886
+1745335974361:github-activity softjey
+1745336363079:github-activity Daniel3886
+1745336369409:stacktarce
+1745336373484:github-activity Daniel3886
+1745336376123:stacktrace
+1745338104001:github-activity Daniel3886
+1745338310917://        sb.append("[").append(time).append("] ").append(action).append("\\n");
+1745338316550:github-activity Daniel3886
+1745338587024:github-activity softjey
+1745339226234:github-activity Daniel3886
+1745339365742:github-activity softjey
+1745340205554:github-activity Daniel3886
+1745340218345:github-activity softjey
+1745340244683:shell:>
+1745340249981:github-activity Daniel3886
+1745340257085:github-activity Junk-debug
+1745567506453:github-activity Daniel3886
+1745567512106:github-activity Daniel3886github-activity Daniel3886
+1745567514546:github-activity Daniel3886
+1745594925717:stacktrace
+1745595030331:github-activity Daniel3886
+1745597031936:sb.append("\\n\\n\\n Appending 2 month commits:\\n");
+1745597040878:github-activity Daniel3886
+1745597259568:github-activity softjey
+1745597275364:github-activity Daniel3886
+1745597364533:github-activity Daniel3886github-activity Daniel3886
+1745597367967:github-activity Daniel3886
+1745670614016:stacktrace
+1745670733486:github-activity Daniel3886
+1745671050494:stacktrace
+1745671427451:github-activity Daniel3886
+1745691037803:github-activity Daniel3886github-activity Daniel3886
+1745691040823:github-activity Daniel3886
+1745691051418:stacktrace
+1745691079731:github-activity Daniel3886
+1745820020275:github-activity Softjey
+1745820578291:github-activity Daniel3886
+1745820645559:github-activity Softjey
+1745837440217:github-activity octocat
+1745837469091:github-activity Daniel3886
+1745837501653:github-activity octocat
+1745837517524:github-activity The Octocat
+1745838197979:github-activity Daniel3886
+1745838230585:github-activity-link Daniel3886 --type CreateEvent
+1745838244813:github-activity-link Daniel3886/Github-UserActivity-CLI --type CreateEvent
+1745838265768:github-activity-link --repo "Daniel3886/GitHub-User-Activity-CLI" --type "CreateEvent"
+1745838287623:stacktrace
+1745838296840:help
+1745838333204:github-activity Daniel3886/Java
+1745838344721:github-activity Daniel3886
+1745838370299:github-activity Daniel3886/Github-User-Activity-CLI
+1745838436462:github-activity Daniel3886
+1745838463770:github-activity-link --repo "Daniel3886/GitHub-User-Activity-CLI\ngithub-activity-link --repo "Daniel3886/GitHub-User-Activity-CLI
+1745838483296:github-activity --link "Daniel3886/GitHub-User-Activity-CLI\ngithub-activity-link --repo "Daniel3886/GitHub-User-Activity-CLI
+1745838496095:github-activity-link --repo Daniel3886
+1745838504258:github-activity-link --repo Daniel3886/Java
+1745848095453:github-activity Daniel3886
+1745849154558:github-link --repo Github-User-Activity --type commits
+1745849171995:github-link --repo Github-User-Activity-CLI --type commits
+1745849195101:github-link --repo Daniel3886/Github-User-Activity --type commits
+1745849273436:github-link --repo Github-User-Activity-CLI --type commits
+1745849427854:github-link --repo Daniel3886 --type commits
+1745849448525:github-link --repo Github-User-Activity --type commits
+1745849455834:github-link --repo Daniel3886/Github-User-Activity-CLI --type commits
+1745849919527:github-activity Daniel3886
+1745849958409:github-link --repo Github-User-Activity-CLI --type commits
+1745849970016:github-link --repo Github-User-Activity --type commits
+1745849978417:github-link --repoName Github-User-Activity-CLI --type commits
+1745849985476:github-link --repo Github-User-Activity --type commits
+1745849995253:github-link --repoName Github-User-Activity --type commits
+1745850144550:github-activity Daniel3886
+1745850160923:github-link -r Java -t commits
+1745850222565:github-activity Daniel3886
+1745850239534:github-link -r Daniel3886 -t commits
+1745850296724:github-link --r <repository-name> -t commits
+1745850299650:github-link -r <repository-name> --t commits
+1745850307942:github-link --r <repository-name> --t commits
+1745850328471:github-link --r Java --t commits
+1745850792038:github-link -r Github-User-Activity -t commits
+1745850880082:github-activity Daniel3886
+1745850884251:github-link -r Github-User-Activity -t commits
+1745851091492:github-activity Daniel3886
+1745851100654:Can you make some checks in the code for if the repository or the username even exist in the github api?
+1745851119874:github-activity softjey
+1745851127886:github-activity Softjey
+1745851153498:github-activity Daniel3886
+1745851162994:github-activity daniel3886
+1745851173126:github-activity softjey
+1745851200891:github-activity junk-debug
+1745851225070:github-activity The octocat
+1745851242439:github-activity octocat
+1745851251232:github-activity Octocat
+1745851276645:githu-activity The Octocat
+1745851301666:github-activity The Octocat
+1745851383062:github-activity
+1745851383070:The Algorithms
+1745851397250:github-activity The Algorithms
+1745851550427:github-activity The Octocat
+1745851705231:github-activity Daniel
+1745852181229:github-activity octocat
+1745852210238:github-activity Softjey
+1745852265833:github-activity Junk-debug
+1745852283983:github-activity Softjey
+1745852514242:github-activity Daniel3886
+1745852573449:github-link -r Github-Activity-CLI -t repo
+1745852585538:github-link -r Github-Activity -t repo
+1745852593076:github-link -r Java -t repo
+1745852621578:github-link -r Github-User-Activity -t repo
+1745852745638:github-activity Daniel3886
+1745852768415:github-link --repo Daniel3886/GitHub-User-Activity --type repo
+1745852774022:github-link --repo Daniel3886/GitHub-User-Activity --type commit
+1745852786310:github-link --repo GitHub-User-Activity --type commit
+1745853068540:github-activity Daniel3886
+1745853265006:github-link -r Github-User-Activity -t commits
+1745853267336:github-link -r Github-User-Activity -t commit
+1745853310562:github-link -repo Github-User-Activity -type commit
+1745853316933:github-link -repo Java -type commit
+1745922799030:github-activity Daniel3886
+1745922806171:github-link -repo Github-User-Activity -type commit
+1745922818517:github-activity Softjey
+1745924319087:github-activity Daniel3886
+1745924600473:github-activity Softjey
+1745941447004:github-activity Daniel3886
+1745941456466:github-activity Softjey
+1745941470941:github-activity Daniel3886
+1745941489124:github-activity Junk-debug
+1745941498524:github-activity Softjey
+1745941506780:github-activity octocat
+1745941638758:github-activity inorf
+1745941647621:github-activity Softjey
+1745941676244:github-activity softjey
+1745941761613:github-activity Softjey
+1745941773907:github-activity daniel
+1745941781558:github-activity Daniel
+1745942435828:github-activity ThePrimeagen
+1745942450658:github-activity Daniel3886
+1745942453911:ThePrimeagen
+1745942458367:github-activity ThePrimeagen
+1745942476941:stacktrace
+1745942803621:github-activity Daniel3886
+1745942819511:github-activity softjey
+1745942868065:github-activity Daniel3886
+1745942876004:github-activity softjey
+1745944569994:github-activity Daniel3886
+1745944582643:github-activity softjey
+1745944632571:github-link -r prisma-dm -t commit
+1745944649153:github-link -r softjey/prisma-dm -t commit
+1745944946284:github-activity softjey
+1745944968304:github-link --repo prisma-dm -type commits
+1745945117372:github-activity Daniel3886
+1745945129988:github-activity softjey
+1745945134645:github-activity inorf
+1745945197688:github-activity Daniel 3886
+1745945206290:github-activity Daniel3886
+1745945208381:github-link --repo Java --type repo
+1745945237175:github-link --repo GitHub-User-Activity --type repo
+1745946058952:github-activity Daniel3886
+1745946078595:github-link -r Java -t commits
+1745946095042:github-link -r Github-User-Activity -t commits
+1745946120167:github-link --repo Java --type commits
+1745946136941:github-link --repo Github-User-Activity --type commits
+1745946334631:github-activity Daniel3886
+1745946354452:github-link --repo Github-User-Activity --type commits
+1745946399607:github-link --repo Github-User-Activity-CLI --type commits
+1745946433946:github-activity Daniel3886
+1745946438054:github-link --repo Github-User-Activity --type commits
+1745946637158:github-activity Daniel3886
+1745946641870:github-link --repo Github-User-Activity --type commits
+1745947746592:github-link --repo Daniel3886/Github-User-Activity --type commits
+1745947889069:github-activity Daniel3886
+1745947894611:github-link --repo Github-User-Activity --type commits
+1745948531399:github-activity Daniel3886
+1745948548146:github-link --repo Github-User-Activity --type commits
+1745948823764:github-activity Daniel3886
+1745948832115:github-link --repo Github-User-Activity --type commits
+1745949184778:github-activity Danie;3886
+1745949192213:github-activity Daniel3886
+1745949208088:github-link --repo Github-User-Activity --type commits
+1745949319100:github-activity Daniel3886
+1745949333677:github-link --repo Github-User-Activity --type commits
+1745949715590:github-activity Daniel3886
+1745949724624:github-link --repo Github-User-Activity --type commits
+1745949917205:github-activity Daniel3886github-activity Daniel3886
+1745949918827:github-activity Daniel3886
+1745949951301:github-link --repo Github-User-Activity --type commitsgithub-link --repo Github-User-Activity --type commits
+1745950343555:github-activity Daniel3886
+1745950449136:github-link --repo Github-User-Activity --type commits
+1745950524039:github-activity Daniel3886
+1745950525814:github-link --repo Github-User-Activity --type commits
+1745950582559:github-activity Daniel3886
+1745950584345:github-link --repo Github-User-Activity --type commits
+1745950611441:github-link --repo Github-User-Activity --type repo
+1745950683635:github-link --repo Github-User-Activity --type issues
+1745950830803:github-activity Daniel3886
+1745950833163:github-link --repo Github-User-Activity --type commits
+1745950841426:github-link --repo Github-User-Activity --type issues
+1745950850232:github-link --repo Github-User-Activity --type links
+1745950866632:github-link --repo Github-User-Activity --type star
+1745950871679:github-link --repo Github-User-Activity --type fork
+1745950876206:github-link --repo Github-User-Activity --type repository
+1745950889992:github-link --repo Github-User-Activity --type stars
+1745950902725:github-link --repo Github-User-Activity --type forks
+1745950910065:github-link --repo Github-User-Activity --type repo
+1745951221637:github-activity softjey
+1745951273529:github-link -r prisma-dm -t commits
+1745951284418:github-link -r prisma-dm -t issue
+1745951297281:github-link -r prisma-dm -t issues
+1745951316960:github-activity junk-debug
+1745951344140:github-link -r myportfolio -t commits
+1745952443354:github-activity Daniel3886
+1745952551807:github-link -r Github-User-Activity -t issues
+1745952571934:github-link -r Github-User-Activity -t commits
+1745952942946:github-activity Daniel3886
+1745952964994:github-link --repo Github-User-Activity -t commits

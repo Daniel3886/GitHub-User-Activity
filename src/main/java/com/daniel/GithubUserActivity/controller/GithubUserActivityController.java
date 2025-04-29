@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/commits")
+@RequestMapping("/users")
 public class GithubUserActivityController {
     private final UserActivityClient userActivityClient;
 
@@ -18,15 +18,10 @@ public class GithubUserActivityController {
     public GithubUserActivityController(UserActivityClient userActivityClient) {
         this.userActivityClient = userActivityClient;
     }
-
-    @GetMapping("/activity")
-    public List<UserActivityResponse> getCommits(
-            @RequestParam String ownerName,
-            @RequestParam String repoName,
-            @RequestParam(defaultValue = "1") int page,
-            @RequestParam(defaultValue = "1") int perPage
+    @GetMapping("/name")
+    public List<UserActivityResponse> getUserName(
+            @RequestParam String username
     ){
-        return userActivityClient.getGithubUserActivity(ownerName, repoName, page, perPage);
+        return userActivityClient.getUserEvents(username);
     }
-
 }

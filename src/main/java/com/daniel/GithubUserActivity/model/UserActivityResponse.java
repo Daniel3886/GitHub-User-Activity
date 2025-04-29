@@ -1,17 +1,39 @@
 package com.daniel.GithubUserActivity.model;
 
+import java.util.List;
+
 public record UserActivityResponse(
-        Commit commit
+        String type,
+        Repo repo,
+        Payload payload,
+        String created_at
 ) {
 
-    public record Author(
-            String name,
-            String date
+    public record Repo(
+            String name
+    ) {}
+
+    public record Payload(
+            List<Commit> commits,
+            Issue issue,
+            Fork fork
+    ) {}
+
+    public record Fork(
+            String name
     ) {}
 
     public record Commit(
-            Author author,
-            String message
+            String message,
+            Author author
+    ) {}
+
+    public record Author(
+            String name
+    ) {}
+
+    public record Issue(
+            String title
     ) {}
 
 }

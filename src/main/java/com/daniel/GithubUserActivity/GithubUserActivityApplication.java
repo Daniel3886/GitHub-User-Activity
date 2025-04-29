@@ -35,5 +35,5 @@ public class GithubUserActivityApplication {
 
 		return factory.createClient(UserActivityClient.class);
 	}
-}
 
+}
