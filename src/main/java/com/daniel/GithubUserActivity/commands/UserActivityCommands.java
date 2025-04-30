@@ -98,7 +98,7 @@ public class UserActivityCommands {
         sb.append("'github-link --repo <repository-name> -type issues' - for issue links\n");
         sb.append("'github-link --repo <repository-name> --type stars' - for star links\n");
         sb.append("'github-link --repo <repository-name> --type forks' - for fork links\n");
-        sb.append("'github-link --repo <repository-name> --type pulls' - for  pull request links\n");
+        sb.append("'github-link --repo <repository-name> --type pulls' - for pull request links\n");
         sb.append("'github-link --repo <repository-name> --type repo' - for repository links\n");
 
         return sb.toString();
