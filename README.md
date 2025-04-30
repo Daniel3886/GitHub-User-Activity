@@ -1,5 +1,3 @@
----
-
 ## 📖 Project Overview
 
 **GithubUserActivity** is a command-line tool that fetches and displays a GitHub user’s recent public events—commits, issues, PRs, etc.—using the GitHub REST API. It also supports linking directly into specific repositories and event types for deeper inspection.
